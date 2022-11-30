@@ -1,0 +1,14 @@
+<div class="alert alert-success text-center" role="alert">
+  <h2>Hello World!</h2>
+  <p>
+    Welcome {{ user.userName }} ! <br />
+    You live in: {{ user.city }}
+  </p>
+  <!--One way databinding o que estiver dentro dos colchetes-->
+  <input type="text" [value]="getAge()" name="age" id="age" />
+  <br />
+  <!--Two way databinding-->
+  <input type="text" [(ngModel)]="display" />
+
+  <p>{{ display }}</p>
+</div>
