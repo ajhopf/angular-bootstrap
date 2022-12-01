@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-bootstrap';
+
+  accordionTitle = 'Título do accordion';
+  accordionDescription = 'heheheh esse é um texto';
+
+
 }

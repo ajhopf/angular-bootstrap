@@ -12,7 +12,7 @@ export class ContadorComponent {
     if (operacao === '+') {
       this.contador++;
     } else {
-      this.contador--;
+      this.contador > 0 ? this.contador-- : this.contador;
     }
   }
 }

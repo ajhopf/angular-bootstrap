@@ -2,6 +2,32 @@
 
 <app-home></app-home>
 <app-contador></app-contador>
+<app-accordion
+  title="Título 2"
+  [description]="accordionDescription"
+  accordionId="accordion2"
+  buttonClass="btn-success"
+  buttonText="Enviar"
+  buttonType="submit"
+></app-accordion>
+<app-accordion
+  [title]="accordionTitle"
+  [description]="accordionDescription"
+  accordionId="accordion1"
+  buttonClass="btn-danger"
+  buttonText="Cancelar"
+  buttonType="reset"
+></app-accordion>
+
+<!--actionOutput faz o retorno de um método -> envia o método através do atributo output-->
+<!-- <app-button
+  (actionOutput)="enviar()"
+  class="btn-success"
+  type="submit"
+  text="Enviar"
+></app-button> -->
+
+<!--(click) = "actionOutput.emit"-->
 
 <!-- <app-main></app-main> -->
 <!-- <app-features></app-features> -->

@@ -9,6 +9,9 @@ import { HomeComponent } from './components/home/home.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { FormsModule } from '@angular/forms';
 import { ContadorComponent } from './components/contador/contador.component';
+import { InfoComponent } from './components/navbar/info/info.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
+import { ButtonComponent } from './components/button/button.component';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { ContadorComponent } from './components/contador/contador.component';
     NavbarComponent,
     HomeComponent,
     FeaturesComponent,
-    ContadorComponent
+    ContadorComponent,
+    InfoComponent,
+    AccordionComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
